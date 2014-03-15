@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:orientation="vertical">
+    <RelativeLayout android:layout_width="fill_parent" android:id="@+id/relativeLayout1" android:layout_height="wrap_content" android:gravity="right" android:layout_gravity="center">
+        <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/droid4" android:id="@+id/title"></ImageView>
+        <LinearLayout android:layout_width="wrap_content" android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:gravity="right" android:layout_centerInParent="true" android:layout_alignParentRight="true">
+            <TextView android:layout_width="wrap_content" android:id="@+id/txtWeek" android:text="Week X" android:textSize="12dip" android:layout_height="wrap_content" android:textStyle="bold"></TextView>
+            <Button android:enabled="false" android:layout_width="40dip" android:id="@+id/btnPrev" android:layout_height="wrap_content" android:text="&lt;"></Button>
+            <Button android:layout_width="40dip" android:id="@+id/btnNext" android:layout_height="wrap_content" android:text="&gt;"></Button>
+        </LinearLayout>
+    </RelativeLayout>
+    <ListView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/lstFilms"></ListView>
+    
+</LinearLayout>

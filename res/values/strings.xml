@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, schedule!</string>
+    <string name="app_name">Student Cinema</string>
+    <string name="Title">FILM TITLE</string>
+    <string name="Tagline">Very Lengthy Tagline</string>
+    <string name="Back">&amp;lt; Back</string>
+    <string name="AppDesc">Find out what\'s screening at Warwick Student Cinema this term!</string>
+    <string name="AddtoCal">Add to My Calendar</string>
+</resources>
